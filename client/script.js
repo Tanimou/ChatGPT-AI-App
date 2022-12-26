@@ -77,7 +77,6 @@ const handleSubmit = async (e) => {
   //fetch the response from the server
   const response = await fetch('https://codex2-0wgx.onrender.com', {
     method: 'POST',
-    mode:'no-cors',
     headers: {
       'Content-Type': 'application/json'
     },
