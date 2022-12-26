@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   //call the loader function
   loader(messageDiv);
   //fetch the response from the server
-  const response = await fetch('https://codex-3jvb.onrender.com', {
+  const response = await fetch('https://codex2-0wgx.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
