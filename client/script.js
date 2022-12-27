@@ -90,7 +90,7 @@ const handleSubmit = async (e) => {
   if (response.ok) {
     const data = await response.json();
     const parseData = data.bot.trim()
-    cosole.log(parseData)
+   
     //call the typeText function
     typeText(messageDiv,parseData);
   }
